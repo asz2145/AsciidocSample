@@ -1,0 +1,44 @@
+= サンプルAsciidoc
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 6
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 6
+:sectlinks:
+:icons: font
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:docname: サンプルAsciidoc
+:author: author<autho.example.com>
+:revnumber: 0.1
+:revdate: 2017/12/25
+
+== 見出し1
+本文
+
+=== 見出し2
+本文2
+
+==== 見出し3
+本文3
+
+===== 見出し4
+本文4
+
+====== 見出し5
+本文5
+
+.テーブル見出し
+|===
+|列1|列2
+|name
+|プロジェクト名を保存する
+a|文字列
+|このノードは1ノードだけ存在する。
+|===
+
+.画像サンプル
+image::image.png[サンプル]
